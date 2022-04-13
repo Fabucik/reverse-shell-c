@@ -37,6 +37,8 @@ int main() {
 	kill(getppid(), 9);
 
 	execvp("/bin/bash", args);
+	    
+	kill(getpid(), 9);
 
     } else wait(0);
 
