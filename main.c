@@ -5,7 +5,6 @@
 #include <stdio.h>
 #include <sys/types.h>
 #include <arpa/inet.h>
-#include <stdlib.h>
 #include <signal.h>
 #include <sys/wait.h>
 
